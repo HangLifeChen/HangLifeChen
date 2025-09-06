@@ -31,10 +31,6 @@ jobs:
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Shanghai
-          public_access: true
-          plugin_achievements: yes
-          plugin_achievements_display: compact
-          plugin_achievements_threshold: X
           plugin_habits: yes
           plugin_habits_charts_type: classic
           plugin_habits_days: 14
@@ -42,6 +38,10 @@ jobs:
           plugin_habits_from: 200
           plugin_habits_languages_limit: 8
           plugin_habits_languages_threshold: 0%
+          plugin_lines: yes
+          plugin_lines_history_limit: 1
+          plugin_lines_repositories_limit: 4
+          plugin_lines_sections: base
           plugin_notable: yes
           plugin_notable_from: organization
           plugin_notable_types: commit
