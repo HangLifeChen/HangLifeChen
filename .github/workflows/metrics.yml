@@ -25,7 +25,7 @@ jobs:
           #  - repo          (optional, if you want to include private repositories)
           token: ${{ secrets.METRICS_TOKEN }}
 
-          
+      
           # Options
           user: HangLifeChen
           template: classic
